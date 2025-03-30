@@ -1,0 +1,641 @@
+/* Общие стили для всех элементов */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Стили для списков */
+menu, ol, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Главный контейнер страницы */
+._09-02-07 {
+  background: #ffffff;
+  height: 177rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Фиксированное навигационное меню */
+._09-02-07__div17.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7.25rem;
+  z-index: 1000;
+}
+
+._09-02-07__div18 {
+  background: linear-gradient(13.23deg, rgba(66, 179, 144, 1) 0%, rgba(79, 112, 149, 1) 100%);
+  width: 100%;
+  height: 7.25rem;
+  position: absolute;
+}
+
+._09-02-07__logo2 {
+  border-radius: 4.5rem;
+  width: 3.97625rem;
+  height: 4.0625rem;
+  position: absolute;
+  left: 6.125rem;
+  top: 0;
+  object-fit: cover;
+}
+
+._09-02-07__div19 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  position: absolute;
+  left: 11.5625rem;
+  top: 0.625rem;
+}
+
+._09-02-07__div20 {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  position: absolute;
+  left: 6.1875rem;
+  top: 4.5rem;
+}
+
+._09-02-07__div20 div {
+  color: #ffffff;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Заголовок "О программе" */
+._09-02-07__div {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  position: absolute;
+  left: 43.75rem;
+  top: 10.9375rem;
+}
+
+/* Секция с информацией о программе */
+._09-02-07__frame-26 {
+  width: 76.5rem;
+  height: 38.5rem;
+  position: absolute;
+  left: 6.0625rem;
+  top: 8.625rem;
+}
+
+._09-02-07__frame-25 {
+  width: 76.5rem;
+  height: 37.6875rem;
+  position: absolute;
+}
+
+._09-02-07__div11 {
+  width: 76.5rem;
+  height: 29.0625rem;
+  position: absolute;
+  top: 8.625rem;
+}
+
+._09-02-07__rectangle-4 {
+  background: #adcaff;
+  border-radius: 2.5rem;
+  width: 75.1875rem;
+  height: 29.1875rem;
+  position: absolute;
+}
+
+._09-02-07__ellipse-2 {
+  opacity: 0.6;
+  width: 34.3125rem;
+  height: 34.375rem;
+  position: absolute;
+  left: 5.305625rem;
+  top: 6.9475rem;
+}
+
+._09-02-07__ellipse-1 {
+  opacity: 0.6;
+  width: 12.8125rem;
+  height: 13.625rem;
+  position: absolute;
+  left: 23.4725rem;
+  top: 0.391875rem;
+}
+
+._09-02-07__div12 {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  position: absolute;
+  left: 8.125rem;
+  top: 25.5625rem;
+}
+
+._09-02-07__div13 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  position: absolute;
+  left: 37.6875rem;
+  top: 1.3125rem;
+}
+
+._09-02-07___12 {
+  color: #000000;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 500;
+  position: absolute;
+  left: 39.9375rem;
+  top: 5.3125rem;
+}
+
+._09-02-07___12 ul {
+  list-style-type: disc;
+  padding-left: 1em;
+}
+
+._09-02-07__div14 {
+  color: #000000;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 500;
+  position: absolute;
+  left: 3.4375rem;
+  top: 18.875rem;
+}
+
+._09-02-07__logo {
+  border-radius: 4.5rem;
+  width: 3.854375rem;
+  height: 3.9375rem;
+  position: absolute;
+  left: 3.4375rem;
+  top: 24.3125rem;
+  object-fit: cover;
+}
+
+._09-02-07__image {
+  border-radius: 2.5rem;
+  opacity: 0.3;
+  width: 23.16875rem;
+  height: 25.8125rem;
+  position: absolute;
+  left: 2.9375rem;
+  top: -0.125rem;
+  object-fit: cover;
+}
+
+._09-02-07__div15 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  right: 800px;
+  position: absolute;
+  left: 4.75rem;
+  top: 1.5625rem;
+}
+
+._09-02-07___09-02-072 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  position: absolute;
+  left: 4.75rem;
+  top: 5.475rem;
+}
+
+._09-02-07___3-10 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 4.75rem;
+  top: 19.4375rem;
+}
+
+._3-10-span { font-family: "Inter-ExtraBold", sans-serif; font-weight: 800; }
+._3-10-span3 { font-family: "Inter-Medium", sans-serif; font-weight: 500; }
+
+._09-02-07__div16 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 4.75rem;
+  top: 16.3125rem;
+}
+
+.div-16-span { font-family: "Inter-ExtraBold", sans-serif; font-weight: 800; }
+.div-16-span2 { font-family: "Inter-Medium", sans-serif; font-weight: 500; }
+
+._09-02-07___25 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 4.75rem;
+  top: 13.1875rem;
+}
+
+._25-span { font-family: "Inter-ExtraBold", sans-serif; font-weight: 800; }
+._25-span2 { font-family: "Inter-Medium", sans-serif; font-weight: 500; }
+
+._09-02-07___3-d-website-developer-working-on-laptop-illustration-png-1 {
+  opacity: 0.2;
+  width: 29.25rem;
+  height: 28.8125rem;
+  position: absolute;
+  left: 44.25rem;
+  top: 8.9375rem;
+  object-fit: cover;
+}
+
+/* Секция "Наши преподаватели" */
+._09-02-07__div2 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 800;
+  position: absolute;
+  left: 9.5625rem;
+  top: 49.6875rem;
+}
+
+._09-02-07__line-16 {
+  border-style: solid;
+  border-color: #42b38e;
+  border-width: 0.1875rem 0 0 0;
+  width: 5.750625rem;
+  position: absolute;
+  left: 9.5625rem;
+  top: 50rem;
+  transform: rotate(0.616deg);
+}
+
+._09-02-07__div9 {
+  width: 22.4375rem;
+  height: 9.749375rem;
+  position: absolute;
+  left: 34.1875rem;
+  top: 81.75rem;
+}
+
+._09-02-07__div10 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  width: 800px;
+  position: absolute;
+  top: 0.1875rem;
+}
+
+._09-02-07___09-02-07-19-02-12-15-02-172 {
+  color: #878787;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  width: 400px;
+  position: absolute;
+  top: 2.3125rem;
+}
+
+._09-02-07__div5 {
+  width: 22.4375rem;
+  height: 9.749375rem;
+  position: absolute;
+  left: 58.75rem;
+  top: 81.75rem;
+}
+
+._09-02-07__div6 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  position: absolute;
+  top: 0.1875rem;
+}
+
+._09-02-07___09-02-07-19-02-12-15-02-17 {
+  color: #878787;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  width: 400px;
+  position: absolute;
+  top: 2.3125rem;
+}
+
+._09-02-07__div7 {
+  width: 22.4375rem;
+  height: 9.749375rem;
+  position: absolute;
+  left: 9.5rem;
+  top: 81.75rem;
+}
+
+._09-02-07__div8 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  position: absolute;
+  top: 0.1875rem;
+}
+
+._09-02-07___09-02-07-38-02-01-15-02-17 {
+  color: #878787;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  width: 800px;
+  position: absolute;
+  top: 2.3125rem;
+}
+
+._09-02-07__line-15 {
+  border-style: solid;
+  border-color: #42b38e;
+  border-width: 0.1875rem 0 0 0;
+  width: 5.750625rem;
+  position: absolute;
+  left: 8.125rem;
+  top: 11rem;
+  transform: rotate(0.616deg);
+}
+
+._09-02-07__image-7 {
+  border-radius: 2.5rem;
+  width: 22.5rem;
+  height: 25rem;
+  position: absolute;
+  left: 9.4375rem;
+  top: 55.4375rem;
+  object-fit: cover;
+}
+
+._09-02-07__image-16 {
+  border-radius: 2.5rem;
+  width: 22.5rem;
+  height: 25rem;
+  position: absolute;
+  left: 34.125rem;
+  top: 55.4375rem;
+  object-fit: cover;
+}
+
+._09-02-07__image-21 {
+  border-radius: 2.5rem;
+  width: 22.5rem;
+  height: 25rem;
+  position: absolute;
+  left: 58.75rem;
+  top: 55.4375rem;
+  object-fit: cover;
+}
+
+/* Секция "Перспективы трудоустройства" */
+._09-02-07__div4 {
+  color: #000000;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 800;
+  position: absolute;
+  left: 9.3125rem;
+  top: 94.5625rem;
+}
+
+._09-02-07___1 {
+  width: 75.35375rem;
+  height: 42.375rem;
+  position: absolute;
+  left: 6.0625rem;
+  top: 99.0625rem;
+  object-fit: cover;
+}
+
+/* Подвал */
+._09-02-07__div29 {
+  width: 100%;
+  height: 15.5rem;
+  position: absolute;
+  left: 0;
+  top: 154.5rem;
+}
+
+._09-02-07__div30 {
+  background: linear-gradient(214.48deg, rgba(66, 180, 142, 1) 0%, rgba(79, 112, 149, 1) 100%);
+  width: 100%;
+  height: 15.5rem;
+  position: absolute;
+}
+
+._09-02-07__div31 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 7.0625rem;
+  top: 1.9375rem;
+}
+
+._09-02-07__div32 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 7.0625rem;
+  top: 4.6875rem;
+}
+
+._09-02-07__div33 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 7.0625rem;
+  top: 7.4375rem;
+}
+
+._09-02-07__div34 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 7.0625rem;
+  top: 10.1875rem;
+}
+
+._09-02-07__div35 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 30.875rem;
+  top: 1.625rem;
+}
+
+._09-02-07__div36 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 30.875rem;
+  top: 4.375rem;
+}
+
+._09-02-07__div37 {
+  color: #0b694e;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 54.6875rem;
+  top: 1.5rem;
+}
+
+._09-02-07__div38 {
+  color: #0b694e;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 54.6875rem;
+  top: 6.8125rem;
+}
+
+._09-02-07__tkmmp-mail-ru {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 54.6875rem;
+  top: 3.3125rem;
+}
+
+._09-02-07___7-83456-2-10-56 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 54.6875rem;
+  top: 9.0625rem;
+}
+
+._09-02-07__div39 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 30.875rem;
+  top: 7.125rem;
+}
+
+._09-02-07__div40 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 30.875rem;
+  top: 9.875rem;
+}
+
+._09-02-07__div41 {
+  color: #ffffff;
+  font-family: "Inter-ExtraBoldItalic", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  position: absolute;
+  left: 30.875rem;
+  top: 11.875rem;
+}
+
+._09-02-07__telegram-app {
+  width: 4.9375rem;
+  height: 4.9375rem;
+  position: absolute;
+  left: 68.5625rem;
+  top: 10.5625rem;
+  object-fit: cover;
+}
+
+._09-02-07__vk-circled {
+  width: 4.9375rem;
+  height: 4.9375rem;
+  position: absolute;
+  left: 73.6875rem;
+  top: 10.5625rem;
+  object-fit: cover;
+}
+
+/* Отступ сверху для контента */
+._09-02-07 > *:not(._09-02-07__div17) {
+  margin-top: 7.25rem;
+}
+
+._09-02-07__div21:hover,
+._09-02-07__div22:hover,
+._09-02-07__div23:hover,
+._09-02-07__div24:hover,
+._09-02-07__div25:hover,
+._09-02-07__div26:hover,
+._09-02-07__div27:hover,
+._09-02-07__div28:hover,
+._09-02-07__div31:hover,
+._09-02-07__div32:hover,
+._09-02-07__div33:hover,
+._09-02-07__div34:hover,
+._09-02-07__div35:hover,
+._09-02-07__div36:hover,
+._09-02-07__div39:hover,
+._09-02-07__div40:hover,
+._09-02-07__div41:hover,
+._09-02-07__telegram-app:hover,
+._09-02-07__vk-circled:hover {
+color: white;
+transform: scale(1.05); /* Увеличивает элемент при наведении */
+cursor: pointer;
+text-decoration: overline;
+}
